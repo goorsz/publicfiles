@@ -1,0 +1,46 @@
+body {
+        background-color: azure;
+}
+
+.appmagic-label-text {
+        text-transform: uppercase;
+}
+
+.appmagic-borderfill-container {
+        overflow: initial;
+}
+
+input {
+    background-color: green !important;
+    color: yellow !important;
+}
+
+input[type="password"].appmagic-text,
+input[type="text"].appmagic-text,
+textarea.appmagic-textarea {
+  -moz-box-shadow: 3px 3px 6px rgba(0,0,0,0.2);
+  -webkit-box-shadow: 3px 3px 6px rgba(0,0,0,0.2);
+  box-shadow: 3px 3px 6px rgba(0,0,0,0.2);
+  background-color: red !important;
+}
+
+input[type="password"].appmagic-text.readonly,
+input[type="text"].appmagic-text.readonly,
+textarea.appmagic-textarea.readonly {
+  background-color: rgba(222, 179, 184, 0.2);
+  border: 1px solid rgba(89, 0, 0, 0.2);
+}
+
+.react-combobox-view {
+  -moz-box-shadow: 3px 3px 6px rgba(0,0,0,0.2);
+  -webkit-box-shadow: 3px 3px 6px rgba(0,0,0,0.2);
+  box-shadow: 3px 3px 6px rgba(0,0,0,0.2);
+}
+.react-combobox-view [class^="label_"]:not([data-is-focusable="true"]) {
+  background-color: rgba(222, 179, 184, 0.2) !important;
+  border: 1px solid rgba(89, 0, 0, 0.2);
+  padding: 5px;
+}
+.react-combobox-view [class^="labelText_"] {
+  height: auto !important;
+}
